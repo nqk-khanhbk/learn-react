@@ -1,0 +1,26 @@
+.listProduct{
+    display: flex;
+
+    &__item{
+        border: 1px solid orange;
+        width: calc(100% / 3 - 30px);
+        border-radius: 12px;
+        margin-right: 30px;
+        img{
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+        }
+        &-title{
+            padding-top: 20px;
+            color: #000;
+            font-size: 35px;
+            font-weight: 600;
+        }
+        &-price{
+            color: red;
+            font-size:25px;
+
+        }
+    }
+}

@@ -1,0 +1,17 @@
+.tabs{
+    border: 1px solid orange;
+    margin: 10px 0;
+    display: flex;
+    padding: 10px;
+
+    &__item{
+        margin-right: 20px;
+        font-size: 25px;
+        font-weight: 700;
+        cursor: pointer;
+        
+    }
+    &__content{
+        font-size: 20px;
+    }
+}
